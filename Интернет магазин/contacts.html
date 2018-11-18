@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Главная</title>
-</head>
+    <link rel="stylesheet" href="style.css"> </head>
 
 <body>
     <ul class="menu">
@@ -13,21 +13,21 @@
         <li> <a href="contacts.html"> Контакты </a> </li>
     </ul>
     <hr>
-    <h1><p>Напишите нам</p></h1>
+    <h1><p class="conthead">Напишите нам</p></h1>
     <form action="#">
-        <ol>
-            <li>Ваше имя:
-                <input type="text" placeholder="Ваше имя"> </li>
+        <ol class="messege">
+            <li>Ваше имя: <br>
+                <input class="inputcont" type="text" placeholder="Ваше имя"> </li>
             <br>
-            <li>Email:
-                <input type="text" placeholder="Email"> </li>
+            <li>Email: <br>
+                <input class="inputcont" type="text" placeholder="Email"> </li>
             <br>
-            <li>Тема обращения:
-                <input type="text" placeholder="Тема"> </li>
+            <li>Тема обращения: <br>
+                <input class="inputcont" type="text" placeholder="Тема"> </li>
             <br>
             <li>Изложите суть обращения
                 <br>
-                <textarea cols="60" rows="5"> </textarea>
+                <textarea class="areatcont"> </textarea>
             </li>
             <br>
             <li> Вы согласны на обработку персональных данных?
@@ -37,10 +37,10 @@
                 <input type="radio" name="pol"> </li>
         </ol>
         <br>
-        <input type="submit" value="Отправить обращение">
-        <input type="reset" value="Отмена"> </form>
-    <h2>Наш адрес:</h2>
-    <ul>
+        <input class="button" type="submit" value="Отправить обращение">
+        <input class="button" type="reset" value="Отмена"> </form>
+    <h2 class="conthead">Наш адрес:</h2>
+    <ul class="messege">
         <li>Контактный телефон: +7 (495) 665-67-23</li>
         <br>
         <li>Адрес: 141231, г. Москва, ул, Новоясеньская, д. 15А. стр 1</li>
@@ -50,8 +50,9 @@
         <li>Наше местоположение на карте</li>
     </ul>
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d444.5338128992555!2d37.648974359162075!3d55.839934018668714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1542219419542" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    <footer>
-        <hr>Copyright &copy; by Dmitry Gushchin. Все права защищены </footer>
+    <footer class="footer">
+        <hr> Copyright &copy; by Dmitry Gushchin. Все права защищены
+        <hr> </footer>
 </body>
 
 </html>
